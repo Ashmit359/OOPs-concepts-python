@@ -1,8 +1,9 @@
 class student :
     college_name = "Chandigarh University"
+    name = "anonymoua" #class attr
     
     def __init__(self,name, marks):
-        self.name = name
+        self.name = name # obj attr > class attr 
         self.marks = marks
         print("add new student in database")
     
